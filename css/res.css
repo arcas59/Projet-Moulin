@@ -1,0 +1,610 @@
+ @charset "UTF-8";
+/*--------------------------------------------------------------------
+=== [レスポンシブ] ====================================
+ -------------------------------------------------------------------*/
+
+.spHide {
+	display: block;
+}
+.pcHide {
+	display: none;
+}
+ @media (max-width: 768px) {
+header {
+	padding: 30px 0;
+}
+.pcHide {
+	display: block;
+}
+.spHide {
+	display: none;
+}
+#wrapper {
+	overflow: hidden;
+}
+header h1 {
+	width: 80px;
+	height: 80px;
+	float: left;
+	transition: 0.3s;
+	margin-left: 3.47vw;
+	position: fixed;
+}
+#gNav {
+	display: none;
+}
+.zdo_drawer_menu .zdo_drawer_button {
+	display: block;
+	background: none;
+	border: none;
+	padding: 0;
+	letter-spacing: 0.1em;
+	cursor: pointer;
+	position: fixed;
+	top: 5px;
+	right: 3.74vw;
+	z-index: 1001;
+	text-align: center;
+	outline: none;
+}
+.zdo_drawer_nav > li {
+	margin-bottom: 20px;
+}
+.zdo_drawer_nav {
+	font-size: 4vw;
+	padding-top: 15vw;
+	padding-bottom: 15vw;
+	height: 100%;
+}
+.zdo_drawer_nav > li > ul {
+	overflow: hidden;
+	width: 90%;
+	margin-top: 20px;
+}
+.zdo_drawer_nav > li > ul > li {
+	font-size: 3vw;
+}
+.zdo_drawer_nav > li > ul > li a {
+	width: 43.4vw;
+	height: 50px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	line-height: 50px;
+	box-sizing: border-box;
+	transition: 0.3s
+}
+.zdo_drawer_nav > li > ul > li:nth-child(4), .zdo_drawer_nav > li > ul > li:nth-child(5), .zdo_drawer_nav > li > ul > li:nth-child(6) {
+	letter-spacing: 0;
+	font-size: 3vw;
+}
+.zdo_drawer_nav > li > ul > li:nth-child(2n) {
+	margin-right: 0;
+}
+.zdo_drawer_menu .zdo_drawer_nav_wrapper {
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s;
+	transform: translate(100%);
+}
+#newsArea {
+	background: linear-gradient(180deg, #ffffff 0%, #ffffff 200px, #e2e2e2 200px, #e2e2e2 100%);
+	padding-bottom: 20px;
+}
+#newsArea .moreBtn {
+	position: inherit;
+	top: inherit;
+	left: inherit;
+	text-align: center;
+}
+#newsArea .moreBtn a {
+	width: 80%;
+	margin: 20px auto 0;
+}
+#newsArea .inner {
+	padding: 50px 3.47vw 0;
+}
+#newsArea .featureNews .txt {
+	font-size: 12px !important;
+	font-family: "Noto Sans Japanese";
+}
+#newsArea .featureNews .ttl {
+	font-size: 14px !important;
+	font-weight: bold;
+	margin: 20px 0;
+}
+#newsArea .inner .secTtl {
+	margin-top: 0px;
+	float: none;
+	margin-bottom: 30px;
+}
+#newsArea .inner .secTtl h2 {
+	font-size: 30px;
+}
+	 
+#newsArea .inner .secTtl h3 {
+	font-size: 12px;
+}
+	 
+#newsArea  .secTtl h2 span {
+	font-size: 15px;
+}
+	 
+#newsArea .featureNews {
+	float: none;
+	width: 100%;
+}
+#newsArea .featureNews .thumb {
+	height: auto;
+	overflow: hidden;
+}
+#newsArea .tab {
+	width: 100%;
+	line-height: 1.2;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 3px;
+	font-size: 10px;
+	letter-spacing: 0.1em;
+}
+#newsArea .catGroup li:last-child {
+	margin-right: 0;
+}
+#newsArea .panel .cat {
+	font-size: 10px;
+	line-height: 1.2;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	top: 50%;
+	left: 0px;
+	width: 60px;
+	padding: 4px;
+}
+#newsArea .panel .thumb {
+	width: 80px;
+	height: auto;
+	overflow: hidden;
+	position: absolute;
+	top: 55%;
+	transform: translateY(-52.5%);
+	left: 70px;
+}
+#newsArea .panel .ttl {
+  margin-right: 0;
+	font-size: 12px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 160px;
+	font-weight: bold;
+}
+#newsArea .panel li {
+	height: 80px;
+}
+#newsArea .panel .date {
+	font-size: 10px;
+	top: initial;
+	bottom: 0;
+}
+	 
+	 
+.newsMoreBtn a {
+	width: 80%;
+}
+
+#storyArea .inner {
+	padding: 50px 3.47vw 0;
+	overflow: hidden;
+}
+	 
+	 
+#storyArea  h2 {
+		font-size: 30px;
+	 }
+#storyArea .secTtl h3 {
+	font-size: 30px;
+	letter-spacing: 0.3em;
+	line-height: 1;
+}
+	 
+	 
+#storyArea .inner .secTtl h4 {
+	font-size: 12px;
+}		 
+#storyArea .secTtl h3 span {
+	font-size: 15px;
+}
+#storyArea .uprBox {
+	overflow: hidden;
+	padding: 0;
+}
+#storyArea .uprBox .left {
+	position: relative;
+	float: none;
+	height: 70vw;
+	width: 100%;
+max-width: 100%;
+}
+#storyArea .uprBox .right {
+	float: none;
+	width: 100%;
+max-width: 100%;
+}
+#storyArea .uprBox .left .img01 {
+	width: 150px;
+	height: auto;
+	position: absolute;
+	top: initial;
+	bottom: 0;
+	left: initial;
+	right: -10px;
+	z-index: 20;
+}
+#storyArea .uprBox .left .img02::after {
+	content: "";
+	width: 100%;
+	height: 180px;
+	background-color: #e2e2e2;
+	position: absolute;
+	top: 8vw;
+	left: 40px;
+	z-index: 0;
+}
+#storyArea .uprBox .left .img02 {
+	width: 100%;
+	height: 30vh;
+	position: absolute;
+	z-index: 10;
+	box-shadow: none;
+}
+#storyArea .uprBox .right .txt {
+	font-size: 14px;
+	margin: 30px 0;
+}
+#storyArea .moreBtn a {
+	width: 80%;
+	margin: 0 auto;
+}
+#storyArea .reason {
+	width: 100%;
+	height: 140px;
+	background-size: 100% auto;
+	margin-top: 50px;
+	float: none;
+	display: flex;
+	align-items: center;
+	padding-left: 0px;
+	background-attachment: initial;
+}
+#storyArea .reason a {
+	display: block;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	line-height: 50px;
+	width: 80%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	height: 50px;
+	margin: 0 auto;
+}
+#storyArea .reason a::before {
+	background-image: none;
+}
+#brandsArea .inner {
+	padding: 50px 3.47vw 0;
+	overflow: hidden;
+}
+#brandsArea .uprBox {
+	overflow: hidden;
+	padding: 0;
+}
+#brandsArea .secTtl {
+	float: none;
+	margin-right: 0px;
+}
+#brandsArea .secTtl h2 {
+	font-size: 30px;
+}
+	 
+#brandsArea .secTtl h3 {
+	font-size: 12px;
+}	 
+	 
+	 
+#brandsArea .uprBox .txt {
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 2;
+}
+#brandsArea .brandsList {
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+#brandsArea .brandsList ul {
+	width: 100%;
+}
+#brandsArea .brandsList li {
+	width: 100%;
+	height: 150px;
+	transition: 0.3s;
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.1);
+	text-align: center;
+	float: none;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+#brandsArea .brandsList li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: "Noto Sans Japanese";
+	display: block;
+	width: 100%;
+	height: 150px;
+	max-width: 100%;
+}
+#brandsArea .brandsList li::before {
+	content: "";
+	width: 100%;
+	height: 150px;
+	background-color: #000000;
+	position: absolute;
+	opacity: 0.5;
+	transition: 0.3s;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+}
+#brandsArea .brandsList li .name {
+	display: none;
+}
+#brandsArea .brandsList li .logo {
+	width: 100px;
+	left: 33vw;
+}
+#brandsArea .brandsList li:nth-child(2) .logo, #brandsArea .brandsList li:nth-child(6) .logo {
+	width: 150px;
+	left: 30vw;
+}
+.logo, #brandsArea .brandsList li:nth-child(4) .logo {
+	width: 200px;
+	left: 20vw;
+}
+	 
+
+#productsArea .inner {
+	padding: 50px 3.47vw 0;
+	overflow: hidden;
+}
+	 
+	 
+
+#productsArea .secTtl h2 {
+	font-size: 30px;
+	letter-spacing: 0.3em;
+	line-height: 1;
+}
+	 
+	 
+#productsArea .inner .secTtl h3 {
+	font-size: 12px;
+}		 
+#productsArea .secTtl h2 span {
+	font-size: 15px;
+}
+#productsArea .uprBox {
+	overflow: hidden;
+	padding: 0;
+}
+#productsArea .uprBox .left {
+	position: relative;
+	float: none;
+	height: 70vw;
+	width: 100%;
+max-width: 100%;
+}
+#productsArea .uprBox .right {
+	float: none;
+	width: 100%;
+max-width: 100%;
+}
+#productsArea .uprBox .left .img01 {
+	width: 150px;
+	height: auto;
+	position: absolute;
+	top: initial;
+	bottom: 0;
+	left: initial;
+	right: -10px;
+	z-index: 20;
+}
+#productsArea .uprBox .left .img02::after {
+	content: "";
+	width: 100%;
+	height: 180px;
+	background-color: #e2e2e2;
+	position: absolute;
+	top: 8vw;
+	left: 40px;
+	z-index: 0;
+}
+#productsArea .uprBox .left .img02 {
+	width: 100%;
+	height: 30vh;
+	position: absolute;
+	z-index: 10;
+	box-shadow: none;
+	overflow: hidden;
+}
+#productsArea .uprBox .right .txt {
+	font-size: 14px;
+	margin: 30px 0;
+}
+#productsArea .moreBtn a {
+	width: 80%;
+	margin: 0 auto;
+}	 
+	 
+/*
+#productsArea .inner {
+	padding: 50px 3.47vw 0;
+	overflow: hidden;
+}
+#productsArea .uprBox {
+	overflow: hidden;
+	padding: 0;
+}
+#productsArea .secTtl {
+	margin-bottom: 30px;
+}
+#productsArea .secTtl h2 {
+	font-size: 30px;
+}
+	 
+#productsArea .secTtl h3 {
+	font-size: 12px;
+}		 
+#productsArea .uprBox .txt {
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+#productsArea .productsList ul {
+	display: block;
+}
+#productsArea .productsList li h4 {
+	font-size: 20px;
+	margin: 0 3.47vw 20px;
+}
+#productsArea .productsList li h4 span {
+	font-size: 16px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: 2px;
+}
+#productsArea .productsList li .txt {
+	font-size: 14px;
+	margin-bottom: 40px;
+	font-family: "Noto Sans Japanese";
+	padding: 0 3.47vw;
+}
+.productsList li {
+	margin-bottom: 30px;
+}*/
+	 
+#productsArea .productsList li .moreBtn a {
+width: 80%;
+}
+#recruitArea {
+	padding: 50px 0 0 0;
+	overflow: hidden;
+}
+#recruitArea .left {
+	float: none;
+	width: 100%;
+	padding-top: 0px;
+}
+#recruitArea .secTtl h2 {
+	font-size: 30px;
+}
+	 
+#recruitArea .secTtl h3 {
+	font-size: 12px;
+}	 
+	 
+#recruitArea .secTtl {
+	margin: 0 3.47vw 30px 3.47vw;
+}
+#recruitArea .left .txt {
+	font-size: 14px;
+	margin: 0 3.47vw 30px 3.47vw;
+	line-height: 2;
+}
+#recruitArea .right {
+	width: 100%;
+	float: none;
+}
+#recruitArea .right img {
+	width: 50%;
+	float: left;
+}
+#recruitArea .moreBtn a {
+	margin: 0 auto 30px;
+	width: 80%;
+}
+footer {
+	margin-top: 100px;
+}
+footer .inner {
+	padding: 40px 5vw;
+	letter-spacing: 0.1em;
+}
+footer .inner > ul {
+	display: block;
+	overflow: hidden;
+}
+
+footer .inner .footMenuUpr, footer .inner .footMenuBtm {
+    width: 100%;
+}
+
+footer .inner ul {
+flex-wrap: wrap;
+margin-bottom: 0;
+}
+
+footer .inner ul li {
+	float: left;
+	width: 50%;
+	margin-bottom: 40px;
+}
+
+footer .inner h2 {
+    font-size: 18px;
+}
+
+.footMenuBtm > ul > li:nth-child(3),.footMenuBtm > ul > li:last-child {
+width: 100%;
+}
+
+.footMenuBtm > ul > li:last-child {
+margin-bottom: 0;
+}
+
+footer .online {
+	margin-top: 0;
+	color: #ffffff !important;
+	background-color: #1b1b1b;
+	width: 100%;
+	text-align: center;
+	border: 1px solid #1b1b1b;
+	box-sizing: border-box;
+	transition: 0.3s;
+	float: right;
+}
+footer .snsBox ul {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+footer .snsBox ul li {
+float: none;
+width: 30px;
+}
+}
+
+@media screen and (min-width:1700px) and ( max-width:1920px) {
+#storyArea .uprBox .left .img01 {
+top: 12vw;
+left: 24vw;
+}
+}
