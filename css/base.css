@@ -58,10 +58,12 @@ header #gNav ul a {
 	font-weight: 500;
 	transition: 0.3s;
 }
-
+.mapsize {
+	width: 25px;
+	margin-right: 10px;
+}
 header #gNav ul li:first-child a::before {
     font-family: "Font Awesome 5 Free";
-    content: "\f07a";
     -webkit-font-smoothing: antialiased;
     font-weight: 900;
     display: inline-block;
