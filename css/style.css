@@ -68,6 +68,20 @@
  opacity: 0;
 }
 }
+::-webkit-scrollbar {
+    width: 0;
+    background: 0 0;
+}
+body::-webkit-scrollbar {
+    width: 15px;
+}
+body::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, white, #c9e265 100%);
+}
+body::-webkit-scrollbar-thumb {
+    background: 0 0;
+    box-shadow: 0 0 0 100000vh #000;
+}
 .inner {
 	max-width: 1440px;
 	margin: 0 auto;
