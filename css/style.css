@@ -164,7 +164,7 @@ body::-webkit-scrollbar-thumb {
 }
 #newsArea .featureNews .cat {
 	color: #ffffff;
-	background-color: #1b1b1b;
+	background-color: #c9e265;
 	position: absolute;
 	top: 10px;
 	left: 0px;
@@ -226,8 +226,8 @@ body::-webkit-scrollbar-thumb {
 	border: none;
 }
 #newsArea .panel .cat {
-	color: #ffffff;
-	background-color: #1b1b1b;
+	color: #000000;
+	background-color: #c9e265;
 	font-size: 12px;
 	font-weight: 600;
 	line-height: 1.2;
