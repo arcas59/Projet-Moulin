@@ -193,11 +193,6 @@ margin-right: 0;
 	text-align: center;
   overflow: hidden;
 }
-
-.zdo_drawer_nav li:nth-child(4) .subTxt {
-	font-size: 16px;
-}
-
 .zdo_drawer_nav li:nth-child(4) .subTxt span {
 		margin-top: 10px;
 }

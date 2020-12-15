@@ -19,6 +19,8 @@
 		<link rel="stylesheet" href="./css/res.css">
 		<link rel="stylesheet" href="./css/css">
 		<link rel="stylesheet" href="./css/leaf.css">
+		<link rel="stylesheet" type="text/css" href="css/slick.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.min.css" />
 		<!--  JS -->
 		<script type="text/javascript" async="" src="./js/analytics.js"></script>
 		<script src="./js/jquery.min.js"></script>
@@ -57,46 +59,40 @@
 			<nav class="zdo_drawer_nav_wrapper">
 				<ul class="zdo_drawer_nav">
 					<li>
-						Notre boulangerie
+						BOULANGERIE
 						<p class="subTxt">
 							<span>Du Moulin</span>
 						</p>
-						<ul>
-							<li><a href="https://maisonkayser.jp/brands/bakery/">Accueil</a></li>
-							<li><a href="https://maisonkayser.jp/brands/and_coffee/">Nos Pains</a></li>
-							<li><a href="https://maisonkayser.jp/brands/table/">Nos Patisseries</a></li>
-							<li><a href="https://maisonkayser.jp/brands/pantra/">Nos Gâteaux</a></li>
-						</ul>
 					</li>
-					<li>
-						<a href="./ingrdient.html">
-							PRODUITS
+					<li class="space">
+						<a href="https://maisonkayser.jp/news/">
+							PAINS
 							<p class="subTxt">
-								<span>Ingrédients</span>
+								<span>Découvrez nos pains authentique</span>
 							</p>
 						</a>
 					</li>
 					<li>
 						<a href="https://maisonkayser.jp/news/">
-							ACTUALITES
+							PÂTISSERIES
 							<p class="subTxt">
-								<span>Suivez nos évènements</span>
+								<span>Trouver votre gourmandises</span>
 							</p>
 						</a>
 					</li>
 					<li>
-						 NOTRE HISTOIRE
+						<a href="https://maisonkayser.jp/news/">
+							GÂTEAUX
+							<p class="subTxt">
+								<span>Nos créations</span>
+							</p>
+						</a>
+					</li>
+					<li>
+						 HISTOIRE
 						<p class="subTxt">
 							<span><a href="https://maisonkayser.jp/story/introduction/">Il était une fois...</a></span>
 						</p>
-					</li>
-					<li>
-						<a href="https://maisonkayser.jp/recruit/">
-							Recrutement
-							<p class="subTxt">
-								<span>Nos offres d'emplois</span>
-							</p>
-						</a>
 					</li>
 					<li>
 						<a href="https://maisonkayser.jp/contact/">
@@ -109,22 +105,15 @@
 				</ul>
 			</nav>
 			<div class="topMovie">
-				<video src="https://maisonkayser.jp/wp/wp-content/uploads/2019/08/movie.mp4" class="masthead-video" autoplay="" loop="" muted="" playsinline=""></video>
+				<div class="slider-b slick-track slick-slider">
+					<img src="image/boulangerie1.jpg" alt="photo boulangerie 1" style="width: 490px; position: relative; left: 0px; top: 0px; z-index: 998;" />
+					<img src="image/boulangerie2.jpg" alt="photo boulangerie 2" style="width: 490px; position: relative; left: -490px; top: 0px; z-index: 1000;" />
+					<img src="image/boulangerie3.jpg" alt="photo boulangerie 3" style="width: 490px; position: relative; left: -980px; top: 0px; z-index: 998;" />
+				</div>
 				<p class="down">
 					<img src="./image/fleche.png" alt="fleche vers le bas">
 				</p>
 			</div>
-			<script>
-				$(function(){
-					  if(navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/i)){
-						    $('.topMovie video').css('display','none');
-						    $('.topMovie').bgSwitcher({
-							      images: ['./image/boulangerie1.jpg','./image/boulangerie2.jpg','./image/boulangerie3.jpg'],    
-						});
-						  
-					}
-				});
-			</script>
 			<div id="main">
 				<section id="newsArea">
 					<div class="inner">
@@ -578,11 +567,13 @@
 					</div>
 				</div>
 				<div class="copy">
-					©Copyright MAISON KAYSER  ALL RIGHTS RESERVED.
+					Adrien Ribeiro | 2021 | Tous droits réservés.
 				</div>
 			</footer>
 			<!-- ↑footerArea↑-->
 		</div>
+		<script src="js/slick.min.js"></script>
+        <script src="js/slide.js"></script>
 		<!-- ↑wrapper↑-->
 	</body>
 </html>

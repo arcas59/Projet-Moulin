@@ -7,14 +7,6 @@
 	height: 100vh;
 	background-color: #333;
 }
-.fvMovie video {
-	width: 100%;
-	height: 50vw;
-	margin-top: 85%;
-	transform: translateY(-80%);
-	z-index: 9999;
-}
-
 .topMovie {
   position: relative;
 	height: 100vh;
@@ -22,8 +14,9 @@
   background-color: #000;
   background-size: cover;
   background-position: center center;
+  z-index: 1;
 }
-.topMovie video {
+.topMovie {
   object-fit: cover;
   position: absolute;
   width: 100%;
@@ -35,7 +28,7 @@
 	width: 11px;
 	height: auto;
 	position: absolute;
-	z-index: 30;
+	z-index: 9999;
 	left: 50%;
 	right: 50%;
 	bottom: 30px;
