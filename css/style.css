@@ -743,95 +743,6 @@ max-width: 150px;
 	margin: 50px 0;
 	letter-spacing: 0.1em;
 }
-
-
-/*#productsArea .secTtl {
-	margin-bottom: 50px;
-}
-#productsArea .secTtl h2 {
-	font-size: 4.16vw;
-	letter-spacing: 0.3em;
-	line-height: 1;
-}
-#productsArea .secTtl h2 span {
-	font-size: 2.08vw;
-}
-#productsArea .secTtl h3 {
-	font-size: 1.11vw;
-	position: relative;
-	padding-left: 60px;
-}*/
-
-/*@media (min-width: 1440px) {
-#productsArea .secTtl h2 {
-	font-size: 60px;
-}
-#productsArea .secTtl h2 span {
-	font-size: 30px;
-}
-#productsArea .secTtl h3 {
-	font-size: 16px;
-}
-}
-#productsArea .secTtl h3::before {
-	content: '';
-	position: absolute;
-	top: 50%;
-	display: inline-block;
-	width: 50px;
-	height: 1px;
-	background-color: black;
-	left: 0;
-}
-#productsArea .uprBox {
-	overflow: hidden;
-	padding: 0 25vw;
-}
-#productsArea .uprBox .txt {
-	font-size: 16px;
-	margin-bottom: 80px;
-}
-#productsArea .productsList ul {
-	display: flex;
-}
-#productsArea .productsList li img {
-	margin-bottom: 30px;
-}
-#productsArea .productsList li h4 {
-	font-size: 2.77vw;
-	margin-bottom: 30px;
-	margin-left: 1vw;
-	margin-right: 1vw;
-}
-#productsArea .productsList li h4 span {
-	font-size: 1.25vw;
-	border-top: 1px solid #1b1b1b;
-	border-bottom: 1px solid #1b1b1b;
-	letter-spacing: 0.2em;
-	width: 100px;
-	text-align: center;
-	display: inline-block;
-	vertical-align: 10px;
-	margin-right: 20px;
-}
-
-@media (min-width: 1440px) {
-#productsArea .productsList li h4 {
-	font-size: 40px;
-}
-#productsArea .productsList li h4 span {
-	font-size: 18px;
-}
-}
-#productsArea .productsList li .txt {
-	font-size: 14px;
-	margin-bottom: 40px;
-	font-family: "Noto Sans Japanese";
-	padding: 0 1vw;
-}
-#productsArea .productsList li .moreBtn a {
-	margin: 0 auto;
-}*/
 #recruitArea {
 	padding: 200px 0 0 3.47vw;
 	overflow: hidden;
@@ -893,4 +804,46 @@ max-width: 150px;
 #recruitArea .right img {
 	width: 33.3vw;
 	float: left;
+}
+footer .socials {
+	text-align: center;	
+}
+.center {
+	text-align: center;
+}
+.inner h3{ 
+	text-align: center;
+	font-size: 30px;
+}
+footer .socials ul {
+    color: #fff;
+    list-style-type: none;
+    -webkit-padding-start: 0;
+    padding-inline-start: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+footer .socials ul a {
+    color: #fff;
+    font-size: 32px;
+    padding: 10px;
+    margin: 0 10px;
+}
+footer .socials ul a:hover {
+    color: #c9e265;
+}
+footer .others {
+    font-size: 8px;
+}
+footer .copyright {
+    font-size: 12px;
+}
+footer .copyright span {
+    font-size: 7px;
+    display: block;
 }
