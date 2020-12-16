@@ -1,8 +1,7 @@
 @charset "UTF-8";
-/*--------------------------------------------------------------------
-=== [トップページ] ====================================
- -------------------------------------------------------------------*/
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700");
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://use.fontawesome.com/releases/v5.7.1/css/all.css);
 .fvMovie {
 	height: 100vh;
 	background-color: #333;
@@ -829,7 +828,7 @@ footer .socials ul {
     justify-content: center;
 }
 footer .socials ul a {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 32px;
     padding: 10px;
     margin: 0 10px;
