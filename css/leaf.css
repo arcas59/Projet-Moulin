@@ -48,6 +48,30 @@ div#leafVisual {
   padding-top: 100px;
   background-image: url("../image/greenwall.svg");
 }
+div#leafVisual2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 340px;
+  margin-bottom: 20px;
+  padding-top: 100px;
+  background-image: url("../image/painfond.jpg");
+}
+div#leafVisual2.brandVisual {
+  height: 600px;
+}
+div#leafVisual2 div.bg {
+  width: 50%;
+  height: 100%;
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div#leafVisual2.story div.bg {
+  background-position:0 20%;
+  }
 
 div#leafVisual.brandVisual {
   height: 600px;
