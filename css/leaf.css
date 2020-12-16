@@ -37,11 +37,6 @@ img {
 
 }
 
-
-/*--------------------------------------------------
-* leafVisual
-==================================================*/
-
 div#leafVisual {
   position: relative;
   display: flex;
@@ -51,7 +46,7 @@ div#leafVisual {
   height: 340px;
   margin-bottom: 20px;
   padding-top: 100px;
-  background-color: #eee;
+  background-image: url("../image/greenwall.svg");
 }
 
 div#leafVisual.brandVisual {
@@ -1040,16 +1035,16 @@ section ul.list_contact li.form a {
   display: block;
   width: 100%;
   padding: 18px 0;
-  background-color: #1b1b1b;
+  background-color: #ffffff;
   border: 1px solid #1b1b1b;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1em;
   text-align: center;
 }
 
 section ul.list_contact li.form a span {
-  padding-left: 25px;
+  text-align: center;
   background: url("../../img/contact/icon_mail_01.gif") 0 center no-repeat;
 }
 
