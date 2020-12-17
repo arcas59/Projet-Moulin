@@ -46,8 +46,12 @@ div#leafVisual {
   height: 340px;
   margin-bottom: 20px;
   padding-top: 100px;
-  background-image: url("../image/greenwall.svg");
+  background-color: #000;
 }
+.ttl {
+  color: rgb(255, 255, 255);
+}
+
 div#leafVisual2 {
   position: relative;
   display: flex;
