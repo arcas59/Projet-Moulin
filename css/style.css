@@ -61,12 +61,14 @@ body {
 }
 .topMovie {
   position: relative;
-	height: 100vh;
+  height: 100vh;
   overflow: hidden;
-  background-color: #000;
   background-size: cover;
   background-position: center center;
   z-index: 1;
+}
+#fixo {
+	max-height: 100%;
 }
 .topMovie {
   object-fit: cover;
