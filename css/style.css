@@ -7,7 +7,6 @@ html {
     margin: 0;
     height: 100%;
 	scroll-behavior: smooth;
-	cursor: url("../image/bag.png"),auto;
 }
 body {
     -webkit-animation: fadein 4s;
@@ -401,6 +400,16 @@ box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.1);
 	text-align: center;
 	word-wrap: normal;
 }
+@media screen and (max-width: 767px) {
+	.titregat {
+		font-size: 25px;
+		margin-top: 35px;
+	}
+	.titregat2 {
+		font-size: 19px;
+		margin-top: 18px;
+	}
+}
 .sizeboxpain {
 	display: flex;
 	flex-direction: column;
@@ -415,13 +424,10 @@ box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.1);
 	font-size: 30px;
 }
 
-
-
-
-
 #storyArea .inner {
 	padding: 200px 3.47vw 0;
 	overflow: hidden;
+	margin-top: 600px;
 }
 #storyArea .uprBox {
 	overflow: hidden;

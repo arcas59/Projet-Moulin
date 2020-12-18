@@ -117,42 +117,22 @@
 					<img src="image/boulangerie2.jpg" alt="photo boulangerie 2" style="width: 490px; position: relative; left: -490px; top: 0px; z-index: 1000;" />
 					<img src="image/boulangerie3.jpg" alt="photo boulangerie 3" style="width: 490px; position: relative; left: -980px; top: 0px; z-index: 998;" />
 				</div>
+				<script>
+					$(function(){
+					  if(navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/i)){
+						$('.topMovie .slider-b').css('display','none');
+					
+						$('.topMovie').bgSwitcher({
+						  images: ['./image/boulangerie1.jpg','./image/boulangerie2.jpg','./image/boulangerie3.jpg'],
+						});
+					  }
+					});
+					</script>
 				<p class="down">
 					<a href="index.html#storyArea"><img src="./image/fleche.png" alt="fleche vers le bas"></a>
 				</p>
 			</div>
 			<div id="main">
-				<section id="newsArea">
-					<div class="inner">
-						<div class="btm wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.2s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.2s; animation-name: none;">
-							<ul class="catGroup">
-								<li class="tab is-active">Actualités</li>
-								<li class="tab">Boulangerie du Moulin</li>
-							</ul>
-							<div class="contents">
-								<ul class="panel is-show">
-									<li>
-										<span class="cat">Boulangerie du Moulin</span>
-											<h4 class="ttl">Fermeture de notre boulangerie du 08 au 16 Novembre inclus pour cause de travaux. Merci de votre compréhension</h4>
-										<span class="date">06.11.2020</span>
-									</li>
-									<li>
-										<span class="cat">Boulangerie du Moulin</span>
-											<h4 class="ttl">Rénovation de nos locaux terminés. Une nouvelle boulangerie vous attend !</h4>
-										<span class="date">14.11.2020</span>
-									</li>
-									<li>
-										<span class="cat">Boulangerie du Moulin</span>
-										<a href="https://www.facebook.com/1230548380344431/videos/398686924589043">
-											<h4 class="ttl">Venez découvrir notre décoration de Noël en boulangerie !</h4>
-										</a>
-										<span class="date">01.12.2020</span>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section>
 				<section id="storyArea">
 					<div class="inner">
 						<h2 class="wow fadeInLeft" data-wow-duration="1.0s" data-wow-delay="0.2s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.2s; animation-name: none;">Notre Histoire</h2>
