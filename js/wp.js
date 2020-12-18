@@ -400,27 +400,6 @@ $(function() {
             }
         });
     }
-	
-	/*
-	var hp_url = 'http://maisonkayser.mystylecms.com/';
-	var url_list = [];
-	if (location.href == hp_url) {
-		
-		$('a:not([href="#"])').each(function() {
-			var cur_path = '';
-			if ($(this).attr('href').indexOf(hp_url) != -1) {
-				cur_path = $(this).attr('href').replace(hp_url, '/');
-				if (url_list.indexOf(cur_path) == -1) {
-					url_list.push(cur_path);
-				}
-			}
-		});
-		
-		console.log(url_list);
-		
-	}
-	*/
-	
 });
 
 function hankaku(t) {

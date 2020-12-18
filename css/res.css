@@ -5,6 +5,35 @@
 .pcHide {
 	display: none;
 }
+
+@media (min-width: 300px){
+	#storyArea {
+		margin-top: 800px;
+	}
+}
+@media (min-width: 380px){
+	#storyArea {
+		margin-top: 850px;
+	}
+}
+@media (min-width: 650px){
+	#storyArea {
+		margin-top: 1050px;
+	}
+}
+@media (min-width: 850px){
+	#storyArea {
+		margin-top: 1250px;
+	}
+}
+
+@media (min-width: 920px){
+	#storyArea {
+		margin-top: 650px;
+	}
+}
+
+
  @media (max-width: 768px) {
 header {
 	padding: 30px 0;
@@ -192,11 +221,9 @@ header h1 {
 .newsMoreBtn a {
 	width: 80%;
 }
-
 #storyArea .inner {
 	padding: 50px 3.47vw 0;
 	overflow: hidden;
-	margin-top: 850px;
 }
 	 
 	 
