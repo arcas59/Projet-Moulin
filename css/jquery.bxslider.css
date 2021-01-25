@@ -17,18 +17,14 @@
 .bxslider {
   margin: 0;
   padding: 0;
-  /*fix flickering when used background-image instead of <img> (on Chrome)*/
   -webkit-perspective: 1000;
 }
 ul.bxslider {
   list-style: none;
 }
 .bx-viewport {
-  /* fix other elements on the page moving (in Chrome) */
   -webkit-transform: translateZ(0);
 }
-/** THEME
-===================================*/
 
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {

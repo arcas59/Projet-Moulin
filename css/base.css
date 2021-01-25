@@ -1,8 +1,4 @@
 @charset "UTF-8";
-
-/*--------------------------------------------------------------------
-=== [共通レイアウト] ====================================
- -------------------------------------------------------------------*/
  
  body {
 	font-family:minion-pro-display,"ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝体", "Yu Mincho", YuMincho, "Noto Sans Japanese","Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo,"ＭＳ Ｐゴシック", Osaka, sans-serif;
@@ -160,9 +156,6 @@ header #gNav #menuBtn:hover {
     text-align: center;
   }
 }
-
-
- /********** [フォント]**********/
 
  @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
@@ -353,9 +346,6 @@ footer .copy {
 	text-align: center;
 	letter-spacing: 0.1em;
 }
-
- /********** [マウスオーバー]**********/
- 
 .hover a:hover img
 {
 opacity:0.7;
